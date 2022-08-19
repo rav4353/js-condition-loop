@@ -3,7 +3,7 @@
 // if 
 
 if (new Date().getHours() < 18) {
-    console.log("Good day!");
+    console.log("Good morning!");
 }
 
 
@@ -13,7 +13,7 @@ const hour = new Date().getHours();
 let greeting;
 
 if (hour < 18) {
-  greeting = "Good day";
+  greeting = "Good morning";
 } else {
   greeting = "Good evening";
 }
@@ -26,8 +26,8 @@ const time = new Date().getHours();
 let greet;
 if (time < 10) {
   greet = "Good morning";
-} else if (time < 20) {
-  greet = "Good day";
+} else if (time < 18) {
+  greet = "Good afternoon";
 } else {
   greet = "Good evening";
 }
